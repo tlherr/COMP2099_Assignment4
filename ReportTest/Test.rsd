@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>Database</DataSourceReference>
+      <CommandText>SELECT       *
+FROM            m_Crime_Table</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="GOPrimaryKey">
+        <DataField>GOPrimaryKey</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="CouncilDistrict">
+        <DataField>CouncilDistrict</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="GOHighestOffenseDesc">
+        <DataField>GOHighestOffenseDesc</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="HighestNIBRSUCROffenseDescription">
+        <DataField>HighestNIBRSUCROffenseDescription</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GOReportDate">
+        <DataField>GOReportDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="GOLocation">
+        <DataField>GOLocation</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ClearanceStatus">
+        <DataField>ClearanceStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ClearanceDate">
+        <DataField>ClearanceDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="GODistrict">
+        <DataField>GODistrict</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GOLocationZip">
+        <DataField>GOLocationZip</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="GOCensusTract">
+        <DataField>GOCensusTract</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="GOXCoordinate">
+        <DataField>GOXCoordinate</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="GOYCoordinate">
+        <DataField>GOYCoordinate</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
